@@ -1,51 +1,51 @@
 .container {
- display: flex;
- flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .products {
- display: flex;
- flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 .navigation {
- display: flex;
- flex: 1;
- background-color: #ff7f50;
- min-height: 200px;
+  display: flex;
+  flex: 1;
+  background-color: #ff7f50;
+  min-height: 200px;
 }
 .products-list {
- display: flex;
- background-color: #005400;
- min-height: 200px;
- flex: 1;
+  display: flex;
+  background-color: #006400;
+  min-height: 200px;
+  flex: 1;
 }
 .news {
- display: flex;
- background-color: #0ff;
- min-height: 200px;
- flex: 1;
+  display: flex;
+  background-color: #0ff;
+  min-height: 200px;
+  flex: 1;
 }
 
 span {
- font-family: verdana;
- margin: auto;
- padding: 8px;
- border-radius: 4px;
- background-color: #faebd7;
- text-transform: lowercase;
+  font-family: verdana;
+  margin: auto;
+  padding: 8px;
+  border-radius: 4px;
+  background-color: #faebd7;
+  text-transform: lowercase;
 }
 
 @media screen and (min-width: 600px) {
- .products {
-  display: flex;
-  flex-direction: row;
- }
+  .products {
+    display: flex;
+    flex-direction: row;
+  }
 }
 @media screen and (min-width: 900px) {
- .container {
-  flex-direction: row;
- }
- .products {
-  flex: 2;
- }
+  .container {
+    flex-direction: row;
+  }
+  .products {
+    flex: 2;
+  }
 }
